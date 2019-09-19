@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         String[] favoriteTvShows = {"Breaking Bad", "American Idol", "Dance India", "Titi Satya", "What The Flop",
-                "KTV Samachara", "Nepal Darpan", "Nepal Tv", "Kabadi Kabadi", "Pashupati nath","Jera Khoesani","de dana dan"};
+                "KTV Samachara", "Nepal Darpan", "Nepal Tv", "Kabadi Kabadi 1", "Pashupati nath","Jera Khoesani","de dana dan"};
 
         ListAdapter theAdapter = new MyAdapter(this, favoriteTvShows);
         ListView theListView = (ListView) findViewById(R.id.theListView);
